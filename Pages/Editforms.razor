@@ -1,0 +1,39 @@
+@page "/editforms"
+
+<h1>Edit Forms and FluentValidation</h1>
+
+<EditFrom Model="BlogPostModel" OnValidSubmit="HandleValidSubmit"
+    <DataAnnotationsValidator/>
+
+    <div class="row mt-u">
+        <label for="title">Title</label>
+        <InputText id="title" @bind-value="BlogPostModel.Title" class="form-control"/>
+    </div>
+    <div class="row mt-u">
+        <label for="slug">Slug</label>
+        <InputText id="slug" @bind-Value="BlogPostModel.Slug" class="form-control"/>
+    </div>
+    <div class="row mt-u">
+        <InputTextArea @bind-Value="BlogPostModel.Content" class="form-control" rows="10"/>
+    </div>
+    <div class="row mt-u">
+        <button type="subit" class="btn btn-primary">Publish</button>
+    </div>
+    <div class="row mt-u">
+        <ValidationSummary/>
+    </div>
+
+</EditForm>
+
+@code {
+    protected BlogPost BlogPostModel { get; set; } = new BlogPost();
+
+    
+    protected void HandleValidSubmit()
+    {
+        Console.WriteLine("Valid Submit!");
+        Console.WriteLine("Your title: " + BlogPostModel.Title);
+        Console.WriteLine("Your slug: " + BlogPostModel.Slug);
+        Console.WriteLine("Your content: " + BlogPostModel.Content);
+    }
+}

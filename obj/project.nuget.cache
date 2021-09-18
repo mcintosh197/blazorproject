@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "TQoofyvgjuWVneyL2RimkdtXS5V1YW7STpeHn/+gcdWffMT3BbRCnNJus13s69VesI1piu4E6A4jAoZUQL9qCw==",
+  "success": true,
+  "projectFilePath": "/Users/kylemcintosh/Desktop/General/Coding/BlazorApp/BlazorApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/kylemcintosh/.nuget/packages/microsoft.aspnetcore.authorization/3.0.0/microsoft.aspnetcore.authorization.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.aspnetcore.blazor/3.0.0-preview9.19465.2/microsoft.aspnetcore.blazor.3.0.0-preview9.19465.2.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.aspnetcore.components/3.0.0/microsoft.aspnetcore.components.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.aspnetcore.components.analyzers/3.0.0/microsoft.aspnetcore.components.analyzers.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.aspnetcore.components.forms/3.0.0/microsoft.aspnetcore.components.forms.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.aspnetcore.components.web/3.0.0/microsoft.aspnetcore.components.web.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.aspnetcore.metadata/3.0.0/microsoft.aspnetcore.metadata.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.extensions.dependencyinjection/3.0.0/microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.0.0/microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.extensions.logging.abstractions/3.0.0/microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.extensions.options/3.0.0/microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.extensions.primitives/3.0.0/microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/microsoft.jsinterop/3.0.0/microsoft.jsinterop.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/mono.webassembly.interop/3.0.0/mono.webassembly.interop.3.0.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
+    "/Users/kylemcintosh/.nuget/packages/serilog.sinks.browserconsole/1.0.0-dev-00012/serilog.sinks.browserconsole.1.0.0-dev-00012.nupkg.sha512"
+  ],
+  "logs": []
+}
